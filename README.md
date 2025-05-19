@@ -1,20 +1,21 @@
-# Solar Challenge Week 1
+# Solar Challenge Week 1 - Interim Submission
 
-This project is part of the 10 Academy challenge to analyze solar energy data in Africa.
+## 🌍 Project Overview
+
+This project analyzes solar energy data across multiple countries to identify trends, outliers, and patterns in solar power generation and adoption. The work is part of a multi-week challenge to build data-driven insights and comparisons.
 
 ## 📁 Project Structure
 
-- `.github/workflows/ci.yml` – GitHub Actions for CI
-- `.gitignore` – Excludes unnecessary files from version control
-- `requirements.txt` – Python dependencies
-- `README.md` – Project documentation
+- `data/raw/`: Unprocessed original data
+- `data/processed/`: Cleaned data for analysis
+- `notebooks/`: Jupyter notebooks for profiling, cleaning, EDA, and comparisons
+- `scripts/`: Utility scripts (functions, helpers)
+- `results/`: Output charts and summary tables
 
-## 🚀 Getting Started
+## 🛠️ Setup Instructions
 
-```bash
-git clone https://github.com/Meargteame/solar-challenge-week1.git
-cd solar-challenge-week1
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
+1. Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # or venv\Scripts\activate on Windows
+   ```
