@@ -42,4 +42,6 @@ data/
 .idea/
 
 # OS
-.DS_Store
+.DS_Store.ipynb_checkpoints/
+*.ipynb
+**/.vs/
